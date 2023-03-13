@@ -29,5 +29,9 @@ public class Midia {
     public double getDuracao() {
         return duracao;
     }
+
+    public String imprime_midia() {
+        return "Título : " + getTitulo() + " | Gênero: " + getGenero() + " | Ano: " + getAno();
+    }
 }
 
