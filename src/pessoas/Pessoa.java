@@ -5,7 +5,7 @@ public class Pessoa {
     private final String dataNascimento;
 
 
-    Pessoa(String nome, String dataNascimento, String genero){
+    protected Pessoa(String nome, String dataNascimento, String genero){
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.genero = genero;
