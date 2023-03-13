@@ -18,4 +18,13 @@ public class Diretor extends Pessoa {
     public void setFilmesDirigidos(Filme filme) {
         this.filmesDirigidos.add(filme);
     }
+
+    public void imprime_direcoes(){
+        System.out.println("=============== Direções de: " + getNome() + " ===================");
+        for(Filme item: filmesDirigidos){
+            System.out.println(item.getTitulo());
+        }
+        System.out.println("======================== FIM =========================");
+    }
+
 }

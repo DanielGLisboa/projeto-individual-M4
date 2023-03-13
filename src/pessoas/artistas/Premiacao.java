@@ -25,7 +25,6 @@ public class Premiacao {
     }
 
 
-
     public int getAno() {
         return ano;
     }
