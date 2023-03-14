@@ -3,7 +3,7 @@ public class Ator extends Artista {
     
     private String formacao;
 
-    Ator(String nome, String dataNascimento, String genero, String formacao) {
+    public Ator(String nome, String dataNascimento, String genero, String formacao) {
         super(nome, dataNascimento, genero);
         this.formacao = formacao;
 

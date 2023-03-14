@@ -6,7 +6,7 @@ public class Premiacao {
 
     private final int ano;
 
-    Premiacao (String titulo, int ano, String categoria){
+    public Premiacao (String titulo, int ano, String categoria){
         this.titulo = titulo;
         this.ano = ano;
         this.categoria = categoria;

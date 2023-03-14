@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class Playlist {
+public class PlayList {
 
     private final String tituloPlaylist;
     private final ArrayList<Midia> midias = new ArrayList<>();
     private String ordemExecucao;
     private Midia midiaAtual, proximaMidia, midiaAnterior;
 
-    public Playlist(String tituloPlaylist, String ordemExecucao) {
+    public PlayList(String tituloPlaylist, String ordemExecucao) {
         this.ordemExecucao = ordemExecucao;
         this.tituloPlaylist = tituloPlaylist;
 

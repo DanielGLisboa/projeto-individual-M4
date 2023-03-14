@@ -12,7 +12,7 @@ public class BibliotecaDeMidias {
 
     private final Usuario usuario;
 
-    private final ArrayList<Playlist> playlists = new ArrayList<>();
+    private final ArrayList<PlayList> playlists = new ArrayList<>();
 
     public BibliotecaDeMidias(Usuario usuario) {
         this.usuario = usuario;
@@ -38,11 +38,11 @@ public class BibliotecaDeMidias {
         return this.usuario;
     }
 
-    public ArrayList<Playlist> getPlaylists() {
+    public ArrayList<PlayList> getPlaylists() {
         return playlists;
     }
 
-    public void setPlaylists(Playlist playlists) {
+    public void setPlaylists(PlayList playlists) {
         this.playlists.add(playlists);
     }
 
@@ -63,7 +63,7 @@ public class BibliotecaDeMidias {
         System.out.println("======================== FIM =========================");
     }
 
-    public void reproduzir_playlist(Playlist playlist) {
+    public void reproduzir_playlist(PlayList playlist) {
         System.out.println("=============== Reproduzindo " + playlist.getTituloPlaylist() + "================");
         ArrayList<Midia> reproduzir = playlist.getMidias();
         String ordemExecucao = playlist.getOrdemExecucao();

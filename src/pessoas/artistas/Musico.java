@@ -3,7 +3,7 @@ public class Musico extends Artista {
     
     private String  atuacao;
 
-    Musico(String nome, String dataNascimento, String genero, String atuacao){
+    public Musico(String nome, String dataNascimento, String genero, String atuacao){
         super(nome, dataNascimento, genero);
     }
 
