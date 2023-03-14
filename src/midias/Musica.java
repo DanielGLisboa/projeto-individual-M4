@@ -5,7 +5,7 @@ public class Musica extends Midia {
 
    private int nota;
 
-    Musica(double duracao, String artista, int nota,String titulo, String genero, int ano) {
+    public Musica(double duracao, String artista, int nota,String titulo, String genero, int ano) {
         super(titulo, genero, ano, duracao);
         if (nota >= 1 && nota <= 5) {
                this.nota = nota;

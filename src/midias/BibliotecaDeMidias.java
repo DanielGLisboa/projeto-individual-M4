@@ -14,7 +14,7 @@ public class BibliotecaDeMidias {
 
     private final ArrayList<Playlist> playlists = new ArrayList<>();
 
-    BibliotecaDeMidias(Usuario usuario) {
+    public BibliotecaDeMidias(Usuario usuario) {
         this.usuario = usuario;
     }
 

@@ -11,7 +11,7 @@ public class Playlist {
     private String ordemExecucao;
     private Midia midiaAtual, proximaMidia, midiaAnterior;
 
-    Playlist(String tituloPlaylist, String ordemExecucao) {
+    public Playlist(String tituloPlaylist, String ordemExecucao) {
         this.ordemExecucao = ordemExecucao;
         this.tituloPlaylist = tituloPlaylist;
 

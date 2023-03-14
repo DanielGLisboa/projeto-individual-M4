@@ -18,7 +18,7 @@ public class Filme extends Midia {
 
     private final Diretor diretor;
 
-    Filme(double duracao, String tipo, String titulo, String genero, int ano, Produtor produtor, Diretor diretor) {
+    public Filme(double duracao, String tipo, String titulo, String genero, int ano, Produtor produtor, Diretor diretor) {
         super(titulo, genero, ano, duracao);
         this.duracao = duracao;
         this.tipo = tipo;
