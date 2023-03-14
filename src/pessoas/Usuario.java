@@ -1,9 +1,9 @@
 package pessoas;
 public class Usuario extends Pessoa{
-    
+
    private String email;
 
-   Usuario(String nome, String dataNascimento, String genero, String email){
+   public Usuario(String nome, String dataNascimento, String genero, String email){
        super(nome, genero,dataNascimento);
        this.email = email;
    }

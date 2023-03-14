@@ -6,7 +6,7 @@ public class Produtor extends Pessoa {
     
     private final ArrayList<Filme> filmesProduzidos = new ArrayList<>();
 
-    Produtor(String nome, String dataNascimento, String genero) {
+    public Produtor(String nome, String dataNascimento, String genero) {
         super(nome, dataNascimento, genero);
     }
 

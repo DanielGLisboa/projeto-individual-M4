@@ -5,7 +5,7 @@ public class Conta {
 
     private final Usuario usuario;
 
-    Conta(Usuario usuario, String senha){
+    public Conta(Usuario usuario, String senha){
         this.usuario = usuario;
         this.senha = senha;
     }

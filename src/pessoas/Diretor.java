@@ -6,7 +6,7 @@ public class Diretor extends Pessoa {
 
     private final ArrayList<Filme> filmesDirigidos = new ArrayList<>();
 
-    Diretor(String nome, String dataNascimento, String genero) {
+    public Diretor(String nome, String dataNascimento, String genero) {
         super(nome, dataNascimento, genero);
     }
 
